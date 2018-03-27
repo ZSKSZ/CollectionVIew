@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFDBB86206A53820078DDA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDBB85206A53820078DDA6 /* AppDelegate.m */; };
+		FAFDBB89206A53820078DDA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDBB88206A53820078DDA6 /* ViewController.m */; };
+		FAFDBB8C206A53820078DDA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFDBB8A206A53820078DDA6 /* Main.storyboard */; };
+		FAFDBB8E206A53820078DDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFDBB8D206A53820078DDA6 /* Assets.xcassets */; };
+		FAFDBB91206A53820078DDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFDBB8F206A53820078DDA6 /* LaunchScreen.storyboard */; };
+		FAFDBB94206A53820078DDA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDBB93206A53820078DDA6 /* main.m */; };
+		FAFDBB9C206A55BC0078DDA6 /* ZSKCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDBB9B206A55BC0078DDA6 /* ZSKCollectionView.m */; };
+		FAFDBB9F206A5B160078DDA6 /* ZSKFlowlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDBB9E206A5B160078DDA6 /* ZSKFlowlayout.m */; };
+		FAFDBBAD206A5D790078DDA6 /* 00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFDBBA2206A5D790078DDA6 /* 00.jpg */; };
+		FAFDBBAF206A5D790078DDA6 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFDBBA5206A5D790078DDA6 /* 01.jpg */; };
+		FAFDBBB1206A5D790078DDA6 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFDBBA8206A5D790078DDA6 /* 02.jpg */; };
+		FAFDBBB3206A5D790078DDA6 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAFDBBAB206A5D790078DDA6 /* 03.jpg */; };
+		FAFDBBB7206A67200078DDA6 /* ZSKCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFDBBB6206A67200078DDA6 /* ZSKCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAFDBB81206A53820078DDA6 /* 无限轮播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "无限轮播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFDBB84206A53820078DDA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAFDBB85206A53820078DDA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAFDBB87206A53820078DDA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAFDBB88206A53820078DDA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAFDBB8B206A53820078DDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFDBB8D206A53820078DDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFDBB90206A53820078DDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFDBB92206A53820078DDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFDBB93206A53820078DDA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAFDBB9A206A55BC0078DDA6 /* ZSKCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSKCollectionView.h; sourceTree = "<group>"; };
+		FAFDBB9B206A55BC0078DDA6 /* ZSKCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSKCollectionView.m; sourceTree = "<group>"; };
+		FAFDBB9D206A5B160078DDA6 /* ZSKFlowlayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSKFlowlayout.h; sourceTree = "<group>"; };
+		FAFDBB9E206A5B160078DDA6 /* ZSKFlowlayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSKFlowlayout.m; sourceTree = "<group>"; };
+		FAFDBBA2206A5D790078DDA6 /* 00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00.jpg; sourceTree = "<group>"; };
+		FAFDBBA5206A5D790078DDA6 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		FAFDBBA8206A5D790078DDA6 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		FAFDBBAB206A5D790078DDA6 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		FAFDBBB5206A67200078DDA6 /* ZSKCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSKCell.h; sourceTree = "<group>"; };
+		FAFDBBB6206A67200078DDA6 /* ZSKCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSKCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFDBB7E206A53820078DDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFDBB78206A53820078DDA6 = {
+			isa = PBXGroup;
+			children = (
+				FAFDBB83206A53820078DDA6 /* 无限轮播 */,
+				FAFDBB82206A53820078DDA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFDBB82206A53820078DDA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDBB81206A53820078DDA6 /* 无限轮播.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFDBB83206A53820078DDA6 /* 无限轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDBBA0206A5D790078DDA6 /* images */,
+				FAFDBB84206A53820078DDA6 /* AppDelegate.h */,
+				FAFDBB85206A53820078DDA6 /* AppDelegate.m */,
+				FAFDBB87206A53820078DDA6 /* ViewController.h */,
+				FAFDBB88206A53820078DDA6 /* ViewController.m */,
+				FAFDBB8A206A53820078DDA6 /* Main.storyboard */,
+				FAFDBB8D206A53820078DDA6 /* Assets.xcassets */,
+				FAFDBB8F206A53820078DDA6 /* LaunchScreen.storyboard */,
+				FAFDBB92206A53820078DDA6 /* Info.plist */,
+				FAFDBB93206A53820078DDA6 /* main.m */,
+				FAFDBB9A206A55BC0078DDA6 /* ZSKCollectionView.h */,
+				FAFDBB9B206A55BC0078DDA6 /* ZSKCollectionView.m */,
+				FAFDBB9D206A5B160078DDA6 /* ZSKFlowlayout.h */,
+				FAFDBB9E206A5B160078DDA6 /* ZSKFlowlayout.m */,
+				FAFDBBB5206A67200078DDA6 /* ZSKCell.h */,
+				FAFDBBB6206A67200078DDA6 /* ZSKCell.m */,
+			);
+			path = "无限轮播";
+			sourceTree = "<group>";
+		};
+		FAFDBBA0206A5D790078DDA6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDBBA2206A5D790078DDA6 /* 00.jpg */,
+				FAFDBBA5206A5D790078DDA6 /* 01.jpg */,
+				FAFDBBA8206A5D790078DDA6 /* 02.jpg */,
+				FAFDBBAB206A5D790078DDA6 /* 03.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFDBB80206A53820078DDA6 /* 无限轮播 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFDBB97206A53820078DDA6 /* Build configuration list for PBXNativeTarget "无限轮播" */;
+			buildPhases = (
+				FAFDBB7D206A53820078DDA6 /* Sources */,
+				FAFDBB7E206A53820078DDA6 /* Frameworks */,
+				FAFDBB7F206A53820078DDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "无限轮播";
+			productName = "无限轮播";
+			productReference = FAFDBB81206A53820078DDA6 /* 无限轮播.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFDBB79206A53820078DDA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZSK;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = " 庄少坤";
+				TargetAttributes = {
+					FAFDBB80206A53820078DDA6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAFDBB7C206A53820078DDA6 /* Build configuration list for PBXProject "无限轮播" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFDBB78206A53820078DDA6;
+			productRefGroup = FAFDBB82206A53820078DDA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFDBB80206A53820078DDA6 /* 无限轮播 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFDBB7F206A53820078DDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFDBBB3206A5D790078DDA6 /* 03.jpg in Resources */,
+				FAFDBB91206A53820078DDA6 /* LaunchScreen.storyboard in Resources */,
+				FAFDBBAF206A5D790078DDA6 /* 01.jpg in Resources */,
+				FAFDBBAD206A5D790078DDA6 /* 00.jpg in Resources */,
+				FAFDBB8E206A53820078DDA6 /* Assets.xcassets in Resources */,
+				FAFDBB8C206A53820078DDA6 /* Main.storyboard in Resources */,
+				FAFDBBB1206A5D790078DDA6 /* 02.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFDBB7D206A53820078DDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFDBBB7206A67200078DDA6 /* ZSKCell.m in Sources */,
+				FAFDBB89206A53820078DDA6 /* ViewController.m in Sources */,
+				FAFDBB9C206A55BC0078DDA6 /* ZSKCollectionView.m in Sources */,
+				FAFDBB94206A53820078DDA6 /* main.m in Sources */,
+				FAFDBB86206A53820078DDA6 /* AppDelegate.m in Sources */,
+				FAFDBB9F206A5B160078DDA6 /* ZSKFlowlayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAFDBB8A206A53820078DDA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFDBB8B206A53820078DDA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFDBB8F206A53820078DDA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFDBB90206A53820078DDA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFDBB95206A53820078DDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAFDBB96206A53820078DDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFDBB98206A53820078DDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "无限轮播/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-zsk.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAFDBB99206A53820078DDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "无限轮播/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-zsk.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFDBB7C206A53820078DDA6 /* Build configuration list for PBXProject "无限轮播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFDBB95206A53820078DDA6 /* Debug */,
+				FAFDBB96206A53820078DDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFDBB97206A53820078DDA6 /* Build configuration list for PBXNativeTarget "无限轮播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFDBB98206A53820078DDA6 /* Debug */,
+				FAFDBB99206A53820078DDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFDBB79206A53820078DDA6 /* Project object */;
+}
